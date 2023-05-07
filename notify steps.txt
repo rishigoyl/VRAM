@@ -1,0 +1,18 @@
+How to configure notify in your script.
+
+STEP-1  Install & Configure Telegram in your Phone.
+STEP-2  Search @botfather, select only verified account.
+STEP-3  Type /newbot and send.
+STEP-4  Choose username (e.g - cdac_ditiss_bot) and send.
+STEP-5  Here one token is generated copy that token and paste in notepad.
+STEP-6  Go to chrome and search t.me/cdac_ditiss_bot(your username).
+STEP-7  Send /start
+STEP-8  Now search @myidbot in Telegram.
+STEP-9  Type /getid and send, copy the given ID in the  notepad.
+STEP-10 RUN script dependencies.sh 
+STEP-11 Go to cd ~/.config/notify
+STEP-12 Open provider-config.yaml
+STEP-13 provide the api-key in the telegram_api_key and chat id in telegram_chat_id and save the file.
+
+
+	

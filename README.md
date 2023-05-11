@@ -1,4 +1,4 @@
-# VRAM (Vulnerability Reconnaissance & Monit)
+# VRAM (Vulnerability Reconnaissance & Monitoring)
 V-RAM (Vulnerability Reconnaissance and Monitoring), is a comprehensive attack surface management system. To simulate a network environment, we set up a local area network consisting of several virtual machines, including Kali, CentOS, Debian, and Windows, with Kali being the main machine and the others acting as host machines.
 
 To identify active hosts on the network, we used the ping command and obtained their OS details, using nmap. We then requested user input to specify the target host for vulnerability scanning. Using Nmap, we performed a scan to discover any vulnerabilities and open ports. We utilized a predefined NSE script to detect vulnerabilities and saved the scan results in an XML file.
